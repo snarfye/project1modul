@@ -50,13 +50,6 @@ img {
     height: 49.583vw;
 }
 
-.календарьчудес {
-    position: absolute;
-    left: 0.361vw;
-    top: -2.069vw;
-    width: 96.806vw;
-    height: 54.236vw;
-}
 
 .ленты {
     position: absolute;
@@ -444,7 +437,7 @@ h1 {
 
 .буква-ч {
     left: 4.306vw;
-    top: 24.306vw;
+    top: 26.306vw;
     width: 10.556vw;
     color: #769ED2;
     transform: rotate(14.14deg);
@@ -452,7 +445,7 @@ h1 {
 
 .буква-у {
     left: 13.57vw;
-    top: 27.073vw;
+    top: 29.073vw;
     width: 9.514vw;
     color: #FF89C2;
     transform: rotate(17.64deg);
@@ -460,7 +453,7 @@ h1 {
 
 .буква-д-вт {
     left: 23.004vw;
-    top: 28.678vw;
+    top: 30.678vw;
     width: 11.319vw;
     color: #FECC36;
     transform: rotate(9.49deg);
@@ -468,7 +461,7 @@ h1 {
 
 .буква-е-вт {
     left: 35.003vw;
-    top: 31.373vw;
+    top: 33.373vw;
     width: 7.639vw;
     color: #769ED2;
     transform: rotate(2.16deg);
@@ -476,7 +469,7 @@ h1 {
 
 .буква-с {
     left: 42.732vw;
-    top: 31.456vw;
+    top: 33.5vw;
     width: 9.028vw;
     color: #FF89C2;
     transform: rotate(-1.38deg);
