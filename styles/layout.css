@@ -1,0 +1,715 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    display: block;
+    max-width: none;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #fff5e9;
+    font-family: 'MyFont', sans-serif;
+    overflow-x: hidden;
+}
+
+img {
+    display: block;
+    max-width: none;
+}
+
+.page {
+    width: 100vw;
+    position: relative;
+}
+
+.slide {
+    position: relative;
+    width: 100vw;
+    height: 66.667vw;
+}
+
+.slide-3 {
+    background-color: #FF89C2;
+}
+
+.slide-4 {
+    background-color: #DBEBFF;
+}
+
+.звездочки1сл {
+    position: absolute;
+    left: -0.347vw;
+    top: 0.903vw;
+    width: 47.778vw;
+    height: 49.583vw;
+}
+
+.календарьчудес {
+    position: absolute;
+    left: 0.361vw;
+    top: -2.069vw;
+    width: 96.806vw;
+    height: 54.236vw;
+}
+
+.ленты {
+    position: absolute;
+    left: -12.986vw;
+    top: -2.278vw;
+    width: 115vw;
+    height: 46.667vw;
+}
+
+.телеканал {
+    position: absolute;
+    left: -1vw;
+    top: 52.778vw;
+    width: 44.722vw;
+    height: 11.25vw;
+}
+
+.фон {
+    position: absolute;
+    left: 24.778vw;
+    top: 4.069vw;
+    width: 90.417vw;
+    height: 93.056vw;
+}
+
+.шар {
+    position: absolute;
+    left: 65.833vw;
+    top: 10.833vw;
+    width: 31.319vw;
+    height: 44.167vw;
+}
+
+.онас {
+    position: absolute;
+    left: 2.083vw;
+    top: 0.278vw;
+    width: 27.917vw;
+    height: 11.319vw;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Stratos Black', sans-serif;
+    font-size: 8.889vw;
+    font-weight: normal;
+    line-height: 1.27;
+    letter-spacing: 0.622vw;
+
+    color: #769ED2;
+    white-space: nowrap;
+}
+
+.свет {
+    position: absolute;
+    left: 31.014vw;
+    top: 16.528vw;
+    width: 68.472vw;
+    height: 37.083vw;
+}
+
+.камера {
+    position: absolute;
+    left: -0.972vw;
+    top: 19.306vw;
+    width: 35.833vw;
+    height: 51.806vw;
+}
+
+.звезды {
+    position: absolute;
+    left: 20.139vw;
+    top: 6.528vw;
+    width: 78.611vw;
+    height: 53.125vw;
+}
+
+.телеканал2 {
+    position: absolute;
+    left: 34.306vw;
+    top: 28.333vw;
+    width: 50.903vw;
+    height: 19.306vw;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Stratos Regular', sans-serif;
+    font-size: 3.333vw;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: 0;
+
+    color: #769ED2;
+}
+
+.клякси {
+    position: absolute;
+    left: -15.167vw;
+    top: 93.264vw;
+    width: 129.931vw;
+    height: 66.875vw;
+}
+
+.подложка {
+    position: absolute;
+    left: 0vw;
+    top: 60.903vw;
+    width: 100vw;
+    height: 5.764vw;
+}
+
+.расписание {
+    position: absolute;
+    left: 29.097vw;
+    top: 17.083vw;
+    width: 42.222vw;
+    height: 7.917vw;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Stratos Black', sans-serif;
+    font-size: 6.667vw;
+    font-weight: normal;
+    line-height: 1.183;
+    letter-spacing: 0;
+
+    color: #FFE6F1;
+    white-space: nowrap;
+}
+
+.время {
+    position: absolute;
+    left: 25.069vw;
+    top: 28.403vw;
+    width: 58.889vw;
+    height: 33.611vw;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Stratos Bold', sans-serif;
+    font-size: 3.333vw;
+    font-weight: normal;
+    line-height: 1.271;
+    letter-spacing: 0;
+
+    color: #FFF4E6;
+}
+
+.время p {
+    margin: 0;
+    padding: 0;
+}
+.колпачек {
+    position: absolute;
+    left: 82.153vw;
+    top: 21.875vw;
+    width: 16.25vw;
+    height: 27.917vw;
+}
+
+.щарики {
+    position: absolute;
+    left: 1.458vw;
+    top: 20.764vw;
+    width: 21.736vw;
+    height: 32.569vw;
+}
+
+.клякси2 {
+    position: absolute;
+    left: -20.167vw;
+    top: 175vw;
+    width: 138.056vw;
+    height: 50.694vw;
+}
+
+.праздникдня {
+    position: absolute;
+    left: 21.25vw;
+    top: 4.861vw;
+    width: 57.917vw;
+    height: 8.819vw;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Stratos Black', sans-serif;
+    font-size: 6.944vw;
+    font-weight: normal;
+    line-height: 1.27;
+    letter-spacing: 0.486vw;
+
+    color: #769ED2;
+    white-space: nowrap;
+}
+
+.яркийпраздник {
+    position: absolute;
+    left: 22.722vw;
+    top: 34.403vw;
+    width: 59.444vw;
+    height: 10.625vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Stratos Bold', sans-serif;
+    font-size: 2.778vw;
+    font-weight: 700;
+    line-height: 1.271;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+
+.звезды3 {
+    position: absolute;
+    left: -0.139vw;
+    top: 4.722vw;
+    width: 100.139vw;
+    height: 96.944vw;
+}
+
+.тортик {
+    position: absolute;
+    left: -2.292vw;
+    top: 15.958vw;
+    width: 105.208vw;
+    height: 52.708vw;
+}
+
+.клякси3 {
+    position: absolute;
+    left: -8.861vw;
+    top: 257.361vw;
+    width: 34.167vw;
+    height: 35.972vw;
+}
+
+.праздник {
+    position: absolute;
+    left: 17.292vw;
+    top: -0.417vw;
+    width: 66.319vw;
+    height: 6.111vw;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Stratos Black', sans-serif;
+    font-size: 6.667vw;
+    font-weight: normal;
+    line-height: 0.92;
+    letter-spacing: 0;
+
+    color: #FF89C2;
+    white-space: nowrap;
+}
+.календари {
+    position: absolute;
+    left: 10.972vw;
+    top: 9.236vw;
+    width: 76.042vw;
+    height: 53.681vw;
+}
+
+.клакси {
+    position: absolute;
+    left: -30.375vw;
+    top: 0.236vw;
+    width: 150.472vw;
+    height: 67.944vw;
+}
+
+.звездочки4 {
+    position: absolute;
+    left: 12.847vw;
+    top: 8.264vw;
+    width: 84.653vw;
+    height: 58.403vw;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Stratos Black', sans-serif;
+    font-size: 8.889vw;
+    font-weight: normal;
+    line-height: 1.27;
+    color: #000;
+}
+
+.календарь-чудес {
+    position: absolute;
+    left: 0;
+    top: 5vw;
+    width: 100vw;
+    height: 66.667vw;
+    pointer-events: none;
+}
+
+.календарь-чудес span {
+    position: absolute;
+    font-family: 'Stratos Black', sans-serif;
+    font-size: 13.889vw;
+    line-height: 1;
+    font-weight: 900;
+    display: inline-block;
+    transform-origin: center;
+    filter: drop-shadow(0.486vw 0.486vw 0px rgba(0, 0, 0, 0.25));
+}
+
+.буква-к {
+    left: 3vw;
+    top: 11.475vw;
+    width: 12.43vw;
+    color: #FF89C2;
+    transform: rotate(9.13deg);
+}
+
+.буква-а1 {
+    left: 13.5vw;
+    top: 13.083vw;
+    width: 10.138vw;
+    color: #FECC36;
+    transform: rotate(4.15deg);
+}
+
+.буква-л {
+    left: 20.833vw;
+    top: 13.541vw;
+    width: 10.625vw;
+    color: #769ED2;
+    transform: rotate(-2.71deg);
+}
+
+.буква-е {
+    left: 30.199vw;
+    top: 13.16vw;
+    width: 7.638vw;
+    color: #FF89C2;
+    transform: rotate(-6.66deg);
+}
+
+.буква-н {
+    left: 37.708vw;
+    top: 10.833vw;
+    width: 10.694vw;
+    color: #769ED2;
+    transform: rotate(-10.81deg);
+}
+
+.буква-д {
+    left: 48.027vw;
+    top: 6.586vw;
+    width: 11.319vw;
+    color: #FECC36;
+    transform: rotate(-14.13deg);
+}
+
+.буква-а2 {
+    left: 59.305vw;
+    top: 4.166vw;
+    width: 10.138vw;
+    color: #769ED2;
+    transform: rotate(-16.71deg);
+}
+
+.буква-р {
+    left: 68.055vw;
+    top: 0vw;
+    width: 8.819vw;
+    color: #FF89C2;
+    transform: rotate(-28.02deg);
+}
+
+.буква-ь {
+    left: 76.805vw;
+    top: -5.069vw;
+    width: 8.958vw;
+    color: #FECC36;
+    transform: rotate(-36.63deg);
+}
+
+.буква-ч {
+    left: 4.306vw;
+    top: 24.306vw;
+    width: 10.556vw;
+    color: #769ED2;
+    transform: rotate(14.14deg);
+}
+
+.буква-у {
+    left: 13.57vw;
+    top: 27.073vw;
+    width: 9.514vw;
+    color: #FF89C2;
+    transform: rotate(17.64deg);
+}
+
+.буква-д-вт {
+    left: 23.004vw;
+    top: 28.678vw;
+    width: 11.319vw;
+    color: #FECC36;
+    transform: rotate(9.49deg);
+}
+
+.буква-е-вт {
+    left: 35.003vw;
+    top: 31.373vw;
+    width: 7.639vw;
+    color: #769ED2;
+    transform: rotate(2.16deg);
+}
+
+.буква-с {
+    left: 42.732vw;
+    top: 31.456vw;
+    width: 9.028vw;
+    color: #FF89C2;
+    transform: rotate(-1.38deg);
+}
+.телеканал0 {
+    position: absolute;
+    left: 6.069vw;
+    top: 53.651vw;
+    width: 31.057vw;
+    height: 7.813vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Stratos Black', sans-serif;
+    font-style: italic;
+    font-size: 6.667vw;
+    font-weight: 900;
+    line-height: 1.183;
+    letter-spacing: 0;
+    color: #FFF4E6;
+    white-space: nowrap;
+}
+
+.карнавал {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 66.667vw;
+    pointer-events: none;
+}
+
+.карнавал span {
+    position: absolute;
+    font-family: 'Stratos Black', sans-serif;
+    font-size: 13.889vw;
+    line-height: 1;
+    font-weight: 900;
+    display: inline-block;
+    transform-origin: center;
+    filter: drop-shadow(0.486vw 0.486vw 0px rgba(0, 0, 0, 0.25));
+}
+
+.буква-кр-к {
+    left: 5.208vw;
+    top: 18.472vw;
+    width: 12.43vw;
+    color: #FF89C2;
+    transform: rotate(0deg);
+}
+
+.буква-кр-а1 {
+    left: 17.069vw;
+    top: 16.181vw;
+    width: 10.139vw;
+    color: #FECC36;
+    transform: rotate(0deg);
+}
+
+.буква-кр-р {
+    left: 28.333vw;
+    top: 14.931vw;
+    width: 8.819vw;
+    color: #769ED2;
+    transform: rotate(0deg);
+}
+
+.буква-кр-н {
+    left: 39vw;
+    top: 13.958vw;
+    width: 10.694vw;
+    color: #FECC36;
+    transform: rotate(0deg);
+}
+
+.буква-кр-а2 {
+    left: 50.708vw;
+    top: 13.958vw;
+    width: 10.139vw;
+    color: #FF89C2;
+    transform: rotate(0deg);
+}
+
+.буква-кр-в {
+    left: 62.111vw;
+    top: 14.931vw;
+    width: 9.375vw;
+    color: #769ED2;
+    transform: rotate(0deg);
+}
+
+.буква-кр-а3 {
+    left: 72.75vw;
+    top: 15.903vw;
+    width: 10.139vw;
+    color: #FECC36;
+    transform: rotate(0deg);
+}
+
+.буква-кр-л {
+    left: 84.153vw;
+    top: 18.056vw;
+    width: 10.625vw;
+    color: #769ED2;
+    transform: rotate(0deg);
+}
+
+.мексика {
+    position: absolute;
+    left: 21.25vw;
+    top: 13.125vw;
+    width: 15.833vw;
+    height: 3.958vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Stratos Medium', sans-serif;
+    font-size: 3.333vw;
+    font-weight: 500;
+    line-height: 1.183;
+    letter-spacing: 0.233vw;
+    color: #FFFFFF;
+}
+
+.япония {
+    position: absolute;
+    left: 62.569vw;
+    top: 12.361vw;
+    width: 13.75vw;
+    height: 3.958vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Stratos Medium', sans-serif;
+    font-size: 3.333vw;
+    font-weight: 500;
+    line-height: 1.183;
+    letter-spacing: 0.233vw;
+    color: #FFFFFF;
+}
+
+.индия {
+    position: absolute;
+    left: 23.333vw;
+    top: 41.389vw;
+    width: 11.875vw;
+    height: 3.958vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Stratos Medium', sans-serif;
+    font-size: 3.333vw;
+    font-weight: 500;
+    line-height: 1.183;
+    letter-spacing: 0.233vw;
+    color: #FFFFFF;
+}
+
+.германия {
+    position: absolute;
+    left: 60.417vw;
+    top: 41.944vw;
+    width: 17.986vw;
+    height: 3.958vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Stratos Medium', sans-serif;
+    font-size: 3.333vw;
+    font-weight: 500;
+    line-height: 1.183;
+    letter-spacing: 0.233vw;
+    color: #FFFFFF;
+}
+
+
+.деньангелов {
+    position: absolute;
+    left: 10.972vw;
+    top: 18.5vw;
+    width: 35.208vw;
+    height: 14vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Stratos Black', sans-serif;
+    font-size: 6.25vw;
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: -0.056vw;
+    color: #FF89C2;
+    text-align: center;
+}
+
+.ханами {
+    position: absolute;
+    left: 57.5vw;
+    top: 21.0vw;
+    width: 38vw;
+    height: 7vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Stratos Black', sans-serif;
+    font-size: 6.25vw;
+    font-weight: 900;
+    line-height: 1.12;
+    letter-spacing: -0.056vw;
+    color: #769ED2;
+}
+
+.холли {
+    position: absolute;
+    left: 19.5vw;
+    top: 50vw;
+    width: 38vw;
+    height: 7vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Stratos Black', sans-serif;
+    font-size: 6.25vw;
+    font-weight: 900;
+    line-height: 1.12;
+    letter-spacing: -0.056vw;
+    color: #769ED2;
+}
+
+.фастнах {
+    position: absolute;
+    left: 56vw;
+    top: 50vw;
+    width: 38vw;
+    height: 7vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Stratos Black', sans-serif;
+    font-size: 6.25vw;
+    font-weight: 900;
+    line-height: 1.12;
+    letter-spacing: -0.056vw;
+    color: #FF89C2;
+}
+

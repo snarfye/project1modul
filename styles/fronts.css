@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Stratos Regular';
+    src: url('../fronts/stratos-regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Stratos Bold';
+    src: url('../fronts/stratos-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Stratos Black';
+    src: url('../fronts/stratos-black.ttf') format('truetype');
+}
